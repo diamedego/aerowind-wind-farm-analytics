@@ -1,0 +1,21 @@
+name: data-pipeline
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r python/requirements.txt
+      - name: Clean raw data and run data-quality assertions
+        run: python python/clean.py
+      - name: Recompute KPIs and charts
+        run: python python/analyze.py
+      - name: Fail if committed outputs are stale
+        run: git diff --exit-code data/processed docs/results.md

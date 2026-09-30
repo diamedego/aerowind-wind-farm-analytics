@@ -1,0 +1,110 @@
+maintenance_id,turbine_id,maintenance_date,maintenance_type,duration_hs,cost_usd,year,category
+M_T001_2023_0,T001,2023-07-02,Corrective,9.87,-200.0,2023,Shutdown due to overtemperature
+M_T001_2023_1,T001,2023-07-25,Preventive,0.0,649.57,2023,
+M_T001_2023_3,T001,2023-05-10,Preventive,3.32,297.41,2023,
+M_T001_2023_4,BAD999,2023-03-20,Corrective,7.41,3097.38,2023,Blade leading edge erosion
+M_T001_2023_5,T001,2023-12-27,Corrective,10.71,2290.26,2023,Shutdown due to overtemperature
+M_T002_2023_0,T002,2023-07-16,Preventive,3.12,337.22,2023,
+M_T002_2023_1,T002,2023-01-12,Corrective,13.08,3553.67,2023,Overload in pitch motor
+M_T002_2023_2,T002,2023-09-16,Corrective,13.51,4219.61,2023,Yaw system misalignment
+M_T002_2023_3,T002,2023-07-15,Corrective,13.53,2459.61,2023,Blade leading edge erosion
+M_T002_2023_4,T002,2023-05-05,Corrective,12.58,3202.03,2023,Shutdown due to overtemperature
+M_T002_2023_5,T002,2023-07-11,Corrective,6.39,2742.25,2023,Main bearing vibration
+M_T008_2023_0,T003,2023-05-19,Corrective,11.99,2708.58,2023,Shutdown due to overtemperature
+M_T003_2023_1,T003,2023-10-27,Corrective,9.84,2801.41,2023,Shutdown due to overtemperature
+M_T003_2023_2,T003,2023-05-16,Corrective,7.22,2415.84,2023,Blade leading edge erosion
+M_T003_2023_3,T003,2023-10-20,Corrective,10.69,2344.26,2023,Shutdown due to overtemperature
+M_T003_2023_4,T003,2023-05-22,Corrective,12.02,3681.2,2023,Main bearing vibration
+M_T003_2023_5,T003,2023-07-21,Corrective,6.08,1876.92,2023,Overload in pitch motor
+M_T004_2023_0,T004,2023-05-26,Corrective,8.57,2145.21,2023,Yaw system misalignment
+M_T004_2023_1,T004,2023-12-02,Preventive,5.28,697.87,2023,
+M_T004_2023_2,T004,2023-11-07,Preventive,3.89,487.94,2023,
+M_T004_2023_3,T004,2023-10-27,Corrective,10.37,2089.07,2023,Main bearing vibration
+M_T004_2023_4,T004,2023-07-01,Corrective,10.19,2928.31,2023,Overload in pitch motor
+M_T004_2023_5,T004,2023-06-11,Corrective,8.84,1978.18,2023,Yaw system misalignment
+M_T005_2023_0,T005,2023-02-16,Corrective,12.33,4167.35,2023,Blade leading edge erosion
+M_T005_2023_1,T005,2023-02-15,Corrective,13.0,4235.78,2023,Shutdown due to overtemperature
+M_T005_2023_2,T005,2023-01-24,Corrective,13.3,4306.28,2023,Main bearing vibration
+M_T005_2023_3,T005,2023-01-27,Corrective,7.17,1921.12,2023,Overload in pitch motor
+M_T005_2023_4,T005,2023-01-08,Corrective,9.57,3758.68,2023,Yaw system misalignment
+M_T005_2023_5,T005,2023-05-04,Preventive,3.25,521.77,2023,
+M_T001_2024_0,T001,2024-12-18,Corrective,7.83,3764.59,2024,Overload in pitch motor
+M_T001_2024_1,T001,2024-05-25,Preventive,4.59,400.43,2024,
+M_T001_2024_2,T001,2024-11-22,Preventive,5.42,471.99,2024,
+M_T001_2024_3,T001,2024-02-17,Corrective,6.25,2630.28,2024,Shutdown due to overtemperature
+M_T001_2024_4,T001,2024-10-19,Corrective,7.47,1940.05,2024,Main bearing vibration
+M_T002_2024_0,T002,2024-09-21,Corrective,6.6,1944.31,2024,Overload in pitch motor
+M_T002_2024_1,T002,2024-06-13,Preventive,5.19,598.06,2024,
+M_T002_2024_2,T002,2024-05-06,Preventive,4.2,593.34,2024,
+M_T002_2024_3,T002,2024-04-08,Preventive,3.75,533.29,2024,
+M_T002_2024_4,T002,2024-10-02,Corrective,6.85,1995.31,2024,Main bearing vibration
+M_T003_2024_0,T003,2024-04-19,Corrective,6.75,1980.65,2024,Shutdown due to overtemperature
+M_T003_2024_1,T003,2024-07-23,Corrective,7.66,3258.7,2024,Yaw system misalignment
+M_T003_2024_2,T003,2024-10-01,Corrective,12.09,3201.49,2024,Blade leading edge erosion
+M_T003_2024_3,T003,2024-04-06,Corrective,12.32,4212.1,2024,Shutdown due to overtemperature
+M_T003_2024_4,T003,2024-04-18,Corrective,8.7,2461.86,2024,Main bearing vibration
+M_T004_2024_0,T004,2024-01-16,Corrective,8.91,3495.54,2024,Overload in pitch motor
+M_T004_2024_1,T004,2024-05-19,Preventive,3.69,500.22,2024,
+M_T004_2024_2,T004,2024-08-11,Corrective,9.45,3822.06,2024,Blade leading edge erosion
+M_T004_2024_3,T004,2024-03-17,Corrective,10.97,3034.87,2024,Shutdown due to overtemperature
+M_T004_2024_4,T004,2024-10-21,Corrective,9.37,2808.91,2024,Main bearing vibration
+M_T005_2024_0,T005,2024-03-06,Corrective,11.22,2690.8,2024,Overload in pitch motor
+M_T005_2024_1,T005,2024-04-26,Corrective,6.25,2358.79,2024,Yaw system misalignment
+M_T005_2024_2,T005,2024-09-11,Preventive,3.48,348.57,2024,
+M_T005_2024_3,T005,2024-03-25,Corrective,10.63,3257.98,2024,Shutdown due to overtemperature
+M_T005_2024_4,T005,2024-09-21,Preventive,4.21,468.4,2024,
+M_T006_2024_0,T006,2024-12-17,Preventive,3.68,481.77,2024,
+M_T006_2024_1,T006,2024-07-09,Corrective,10.67,2357.84,2024,Yaw system misalignment
+M_T006_2024_2,T006,2024-05-10,Corrective,11.43,4056.78,2024,Blade leading edge erosion
+M_T006_2024_3,T006,2024-02-01,Corrective,13.18,2714.5,2024,Shutdown due to overtemperature
+M_T006_2024_4,T006,2024-10-13,Corrective,10.27,2705.2,2024,Main bearing vibration
+M_T007_2024_0,T007,2024-02-21,Corrective,8.13,2086.13,2024,Overload in pitch motor
+M_T007_2024_1,T007,2024-05-15,Preventive,3.18,391.4,2024,
+M_T007_2024_2,T007,2024-01-23,Corrective,7.04,3016.34,2024,Blade leading edge erosion
+M_T007_2024_3,T007,2024-10-09,Corrective,12.61,3911.76,2024,Shutdown due to overtemperature
+M_T007_2024_4,T007,2024-12-10,Preventive,3.75,373.98,2024,
+M_T008_2024_2,T008,2025-09-06,Preventive,4.41,300.0,2025,
+M_T009_2024_0,T009,2025-02-13,Corrective,7.92,500.0,2025,Yaw system misalignment
+M_T009_2024_1,T009,2025-08-24,Preventive,10.91,300.0,2025,
+M_T009_2024_2,T009,2025-03-04,Preventive,8.16,300.0,2025,
+M_T009_2024_3,T009,2025-05-23,Preventive,4.11,300.0,2025,
+M_T009_2024_4,T009,2025-09-25,Preventive,3.85,300.0,2025,
+M_T001_2025_0,T001,2025-05-26,Corrective,6.85,3102.31,2025,Yaw system misalignment
+M_T001_2025_1,T001,2025-01-06,Preventive,3.97,480.39,2025,
+M_T001_2025_2,T001,2025-10-12,Corrective,10.14,2545.38,2025,Shutdown due to overtemperature
+M_T001_2025_3,T001,2025-09-24,Corrective,11.92,2943.5,2025,Main bearing vibration
+M_T002_2025_0,T002,2025-10-19,Preventive,3.75,436.69,2025,
+M_T002_2025_1,T002,2025-05-17,Corrective,8.83,2789.93,2025,Yaw system misalignment
+M_T002_2025_2,T002,2025-12-26,Preventive,4.81,596.32,2025,
+M_T002_2025_3,T002,2025-03-27,Corrective,8.18,3658.31,2025,Shutdown due to overtemperature
+M_T003_2025_0,T003,2025-09-20,Corrective,11.71,3863.12,2025,Main bearing vibration
+M_T003_2025_1,T003,2025-04-12,Corrective,7.81,1859.97,2025,Overload in pitch motor
+M_T003_2025_2,T003,2025-05-17,Corrective,13.75,2710.64,2025,Yaw system misalignment
+M_T003_2025_3,T003,2025-12-23,Corrective,9.88,3336.24,2025,Blade leading edge erosion
+M_T004_2025_0,T004,2025-08-03,Corrective,11.81,2556.37,2025,Shutdown due to overtemperature
+M_T004_2025_1,T004,2025-02-22,Preventive,5.57,594.18,2025,
+M_T004_2025_2,T004,2025-01-14,Preventive,5.22,578.52,2025,
+M_T004_2025_3,T004,2025-02-16,Corrective,8.21,2597.99,2025,Yaw system misalignment
+M_T005_2025_0,T005,2025-12-16,Corrective,13.66,3988.96,2025,Blade leading edge erosion
+M_T005_2025_1,T005,2025-01-17,Corrective,8.48,1929.43,2025,Shutdown due to overtemperature
+M_T005_2025_2,T005,2025-03-25,Preventive,3.3,410.38,2025,
+M_T005_2025_3,T005,2025-11-15,Preventive,3.75,429.65,2025,
+M_T006_2025_0,T006,2025-02-14,Preventive,4.69,565.71,2025,
+M_T006_2025_1,T006,2025-05-10,Preventive,5.58,721.04,2025,
+M_T006_2025_2,T006,2025-08-07,Preventive,4.29,552.81,2025,
+M_T006_2025_3,T006,2025-06-05,Corrective,9.26,3774.2,2025,Main bearing vibration
+M_T007_2025_0,T007,2025-11-06,Preventive,4.64,589.5,2025,
+M_T007_2025_1,T007,2025-08-20,Corrective,8.55,2909.8,2025,Yaw system misalignment
+M_T007_2025_2,T007,2025-11-12,Preventive,4.81,518.05,2025,
+M_T007_2025_3,T007,2025-09-19,Preventive,5.41,546.72,2025,
+M_T008_2025_1,T008,2025-04-13,Preventive,3.25,300.0,2025,
+M_T008_2025_2,T008,2025-07-12,Preventive,5.07,300.0,2025,
+M_T008_2025_3,T008,2025-09-18,Preventive,5.43,300.0,2025,
+M_T009_2025_0,T009,2025-09-13,Preventive,6.04,300.0,2025,
+M_T009_2025_1,T009,2025-02-04,Preventive,6.76,300.0,2025,
+M_T009_2025_2,T009,2025-09-12,Preventive,5.14,300.0,2025,
+M_T009_2025_3,T009,2025-03-05,Preventive,7.21,300.0,2025,
+M_T010_2025_0,T010,2025-04-19,Preventive,5.85,300.0,2025,
+M_T010_2025_1,T010,2025-06-19,Corrective,11.53,600.0,2025,Blade leading edge erosion
+M_T010_2025_2,T010,2025-12-09,Preventive,13.89,300.0,2025,
+M_T010_2025_3,T010,2025-10-17,Preventive,10.36,300.0,2025,

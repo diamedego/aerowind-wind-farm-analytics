@@ -1,0 +1,11 @@
+id;turbine_id;model;nominal_power_kw;location;installation_date
+1;T001;"Vestas V100";2000.00;"Parque Eolico El Faro";2023-01-02
+2;T002;"Vestas V100";2000.00;"Parque Eolico El Faro";2023-01-02
+3;T003;"Vestas V100";2000.00;"Parque Eolico El Faro";2023-01-02
+4;T004;"Vestas V100";2000.00;"Parque Eolico El Faro";2023-01-03
+5;T005;"Vestas V100";2000.00;"Parque Eolico El Faro";2023-01-03
+6;T006;"Vestas V110";2200.00;"Parque Eolico El Faro";2024-01-02
+7;T007;"Vestas V110";2200.00;"Parque Eolico El Faro";2024-01-02
+8;T008;GE.2.5-116;2500.00;"Parque Eolico El Faro";2025-01-01
+9;T009;GE.2.5-116;2500.00;"Parque Eolico El Faro";2025-01-01
+10;T010;GE.2.5-116;2500.00;"Parque Eolico El Faro";2025-01-01

@@ -1,0 +1,36 @@
+table,check,rows_affected,action
+curves,rows loaded,69,-
+curves,"duplicate (model, wind_speed)",0,none found
+curves,negative speed or power,0,none found
+turbines,rows loaded,10,-
+turbines,nominal power <= 0,1,replaced with model rated power (from power curve)
+turbines,nominal power != model rated power,0,none left
+turbines,duplicate turbine_id,0,none found
+weather,rows loaded,1096,-
+weather,duplicate date,0,none found
+weather,"wind_speed_mps missing or outside [0, 40]",1,"set to NULL, row kept"
+weather,"temperature_c missing or outside [-20, 60]",3,"set to NULL, row kept"
+weather,"relative_humidity_pct missing or outside [0, 100]",1,"set to NULL, row kept"
+weather,"pressure_hpa missing or outside [900, 1100]",1,"set to NULL, row kept"
+price,rows loaded,36,-
+price,price missing or <= 0,2,imputed with same month of next year (flagged)
+price,months after imputation,36,36 expected (2023-2025)
+production,rows loaded,10960,-
+production,null or negative energy / hours,0,none found
+production,"rows sharing (turbine_id, date) with another row",4019,"investigated, see below"
+production,turbine-days after consolidation,8037,-
+production,turbine_id not in turbines table,0,none found
+production,production before installation date,9,removed
+production,operating + inactive hours != 24,3,removed
+production,energy > nominal power x 24 h (physically impossible),226,removed
+production,final rows,7799,-
+maintenance,rows loaded,109,-
+maintenance,"duplicate (turbine_id, date)",0,none found
+maintenance,preventive with empty category,45,set to 'Preventive without failure'
+maintenance,corrective with empty category,0,none found
+maintenance,turbine_id not in turbines table,1,removed
+maintenance,cost <= 0,1,removed
+maintenance,duration <= 0,1,removed
+maintenance,maintenance before installation date,0,removed
+maintenance,year column != year of maintenance_date,0,none found
+maintenance,final rows,106,-
